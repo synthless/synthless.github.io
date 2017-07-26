@@ -1,0 +1,63 @@
+* {
+    font-family: gothic;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: gothic;
+    src: url(assets/fonts/Gothic.ttf);
+}
+
+@font-face {
+    font-family: gothicb;
+    src: url(assets/fonts/Gothicb.ttf);
+}
+
+@font-face {
+    font-family: gothicbi;
+    src: url(assets/fonts/Gothicbi.ttf);
+}
+
+@font-face {
+    font-family: gothici;
+    src: url(assets/fonts/Gothici.ttf);
+}
+
+body {
+}
+
+A {
+    color: black;
+    text-decoration: none;
+}
+
+A:visited text-decoration: none; }
+
+A:active {
+    color: black;
+    text-decoration: none;
+}
+.bg {background: dimgrey;}
+.page {
+    margin-left: 9%;
+    margin-right: 9%;
+	padding-top: 220;
+}
+.menu {
+    height: 40px;
+    background: #4a4a4a;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.mlogo {
+	font-family: gothicbi;
+    font-size: 30px;
+}
+.hero1 {
+	height: 600px;
+    background: #505050;
+    margin-top: 50px;
+}
